@@ -1,3 +1,7 @@
+/*Viewport*/
+@-ms-viewport{width: device-width;
+}
+
 body {
 	background: url("../images/large_leather.png");
 	font-size: 18px;
@@ -212,4 +216,14 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
+}
+ 
+ /*media queries*/
+
+@media screen and (max-width: 768px) {
+	/*css here for this specific media query*/
+}
+
+@media screen and (max-width: 640px) {
+	/*css here for this specific media query*/
 }
